@@ -19,10 +19,10 @@ public class Server
 			while (true)
 			{
 				Socket client = server.accept();
+				
 				try
 				{
 					clients.add(new ServerThread(client));
-					System.out.println(client.getLocalPort() + " joined");
 				} 
 				catch (IOException e)
 				{
