@@ -1,33 +1,41 @@
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class DBConnector
 {
-	private static final String url = "jdbc:mysql://localhost:3306/chatDB?useUnicode=true&serverTimezone=UTC&useSSL=false";
-    private static final String user = "root";
-    private static final String password = "pass";
-    
-    private Connection con;
-    private PreparedStatement hasUser;
+	private PreparedStatement hasUser;
     private PreparedStatement checkUser;
     private PreparedStatement addUser;
     private PreparedStatement userCount;
     
     public DBConnector() 
     {
-    	try 
+    	try (InputStream in = Files.newInputStream(Paths.get("database.properties")))
     	{
-    		con = DriverManager.getConnection(url, user, password);
+    		Properties props = new Properties();
+    		props.load(in);
+			String url = props.getProperty("url");
+			String user = props.getProperty("user");
+			String password = props.getProperty("password");
+			Connection con = DriverManager.getConnection(url, user, password);
     		
     		hasUser = con.prepareStatement("select count(*) from users where login = ?;");
     		checkUser = con.prepareStatement("select * from users where login = ? && password = ?;");
     		addUser = con.prepareStatement("insert into users (id, login, password) values (?, ?, ?);");
     		userCount = con.prepareStatement("select count(*) from users;");
     	}
-    	catch (SQLException e) {}
+    	catch (SQLException | IOException e)
+		{
+			e.printStackTrace();
+		}
     }
     
     public boolean hasUser(String login) 
@@ -46,7 +54,7 @@ public class DBConnector
     	}
     	catch (SQLException e) 
     	{
-			System.err.println(e);
+			e.printStackTrace();
 			return false;
 		}
     }

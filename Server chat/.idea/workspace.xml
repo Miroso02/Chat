@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="acff1baa-12b9-4ee7-81f5-bc0ff7300582" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client chat/bin/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client chat/bin/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client chat/bin/MessageGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client chat/bin/MessageGetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client chat/bin/MessageSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client chat/bin/MessageSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DBConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kbT4yTT3XhKDZdpVCTYjxPSykW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client chat" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="Client chat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <module name="Server chat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acff1baa-12b9-4ee7-81f5-bc0ff7300582" name="Default Changelist" comment="" />
+      <created>1605968104086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605968104086</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="287" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605969537758">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="287" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1474.864@0.0.1474.864" timestamp="1605969537758" />
+    <state x="613" y="143" key="FileChooserDialogImpl" timestamp="1605968521929">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="613" y="143" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1605968521929" />
+    <state width="1230" height="211" key="GridCell.Tab.0.bottom" timestamp="1605971919748">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1230" height="211" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1605971919748" />
+    <state width="1230" height="211" key="GridCell.Tab.0.center" timestamp="1605971919748">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1230" height="211" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1605971919748" />
+    <state width="1230" height="211" key="GridCell.Tab.0.left" timestamp="1605971919748">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1230" height="211" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1605971919748" />
+    <state width="1230" height="211" key="GridCell.Tab.0.right" timestamp="1605971919748">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1230" height="211" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1605971919748" />
+    <state x="523" y="186" key="NewModule_or_Project.wizard" timestamp="1605968557532">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="523" y="186" key="NewModule_or_Project.wizard/0.0.1474.864@0.0.1474.864" timestamp="1605968557532" />
+    <state x="341" y="71" key="SettingsEditor" timestamp="1605969479851">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="341" y="71" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1605969479851" />
+  </component>
+</project>

@@ -32,6 +32,7 @@ public class Server
 		}
 		finally 
 		{
+			System.out.println("Server stopped");
 			server.close();
 		}
 	}
